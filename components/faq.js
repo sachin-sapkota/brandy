@@ -1,7 +1,7 @@
-import React from "react";
-import Container from "./container";
-import { Disclosure } from "@headlessui/react";
-import { ChevronUpIcon } from "@heroicons/react/24/solid";
+import React from 'react';
+import Container from './container';
+import { Disclosure } from '@headlessui/react';
+import { ChevronUpIcon } from '@heroicons/react/24/solid';
 
 const Faq = () => {
   return (
@@ -16,7 +16,7 @@ const Faq = () => {
                     <span>{item.question}</span>
                     <ChevronUpIcon
                       className={`${
-                        open ? "transform rotate-180" : ""
+                        open ? 'transform rotate-180' : ''
                       } w-5 h-5 text-indigo-500`}
                     />
                   </Disclosure.Button>
@@ -31,26 +31,34 @@ const Faq = () => {
       </div>
     </Container>
   );
-}
+};
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
-  },
-  {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
-  },
-  {
-    question: "What is your refund policy? ",
+    question: 'What digital marketing services do you offer?',
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      'We offer a wide range of digital marketing services, including search engine optimization (SEO), social media marketing, pay-per-click advertising (PPC), content marketing, email marketing, and more.',
   },
   {
-    question: "Do you offer technical support? ",
+    question: 'How can digital marketing benefit my business?',
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      'Digital marketing can benefit your business in several ways. It can help increase your online visibility, drive more traffic to your website, generate leads, improve brand awareness, engage with your target audience, and ultimately, boost your sales and revenue.',
+  },
+  {
+    question: 'How do you measure the success of digital marketing campaigns?',
+    answer:
+      'We use various metrics and analytics tools to measure the success of digital marketing campaigns. These include website traffic, conversion rates, click-through rates (CTR), engagement metrics, return on investment (ROI), and more. We provide regular reports and insights to help you track the performance and effectiveness of your campaigns.',
+  },
+  {
+    question:
+      'Can you customize digital marketing strategies to suit my business needs?',
+    answer:
+      'Yes, we understand that each business is unique, and we tailor our digital marketing strategies to meet your specific needs and goals. We conduct thorough research and analysis of your industry, target audience, competitors, and business objectives to create customized strategies that deliver the best results for your business.',
+  },
+  {
+    question: 'How long does it take to see results from digital marketing?',
+    answer:
+      'The timeframe to see results from digital marketing can vary depending on various factors, such as the competitiveness of your industry, the specific strategies implemented, your target audience, and your business goals. Generally, you can start seeing some initial results within a few months, but significant improvements and long-term success require an ongoing commitment to digital marketing.',
   },
 ];
 

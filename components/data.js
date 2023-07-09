@@ -5,56 +5,55 @@ import {
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
   SunIcon,
-} from "@heroicons/react/24/solid";
+} from '@heroicons/react/24/solid';
 
-import benefitOneImg from "../public/img/benefit-one.png";
-import benefitTwoImg from "../public/img/benefit-two.png";
+import benefitOneImg from '../public/img/benefit-one.png';
+import benefitTwoImg from '../public/img/benefit-two.png';
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: 'Boost your digital marketing',
+  desc: 'You can use this space to highlight the benefits of using our digital marketing website. It can also contain an image or illustration like in the example along with some bullet points.',
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: 'Understand your customers',
+      desc: 'Gain valuable insights about your target audience and understand their behavior and preferences.',
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: 'Improve acquisition',
+      desc: 'Enhance your customer acquisition strategies and attract more leads to your business.',
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: 'Drive customer retention',
+      desc: 'Increase customer loyalty and retention rates by implementing effective digital marketing campaigns.',
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: 'Discover more advantages',
+  desc: 'You can use this same layout with a flip image to highlight other advantages of using our digital marketing website. It can also contain an image or illustration as in the above section along with some bullet points.',
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: 'Data-driven decision making',
+      desc: 'Make informed business decisions based on data-driven insights and analytics.',
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: 'Targeted marketing campaigns',
+      desc: 'Reach your ideal audience with precision targeting and personalized marketing campaigns.',
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: 'Social media integration',
+      desc: 'Effortlessly connect and engage with your audience across various social media platforms.',
       icon: <SunIcon />,
     },
   ],
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };
